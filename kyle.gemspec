@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Patrick Metcalfe"]
   spec.email         = ["git@patrickmetcalfe.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{An awesome command line assistant}
+  spec.description   = %q{I really love the command line, NLP, and personal programs that understand us individually, so this is my attempt at bring those all together. You should help!!}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
