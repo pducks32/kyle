@@ -5,7 +5,9 @@ describe Kyle do
     expect(Kyle::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  context "when run from command line" do
+    it "receives argv" do
+      expect(`exe/kyle which grep`).to include "bin/grep"
+    end
   end
 end
